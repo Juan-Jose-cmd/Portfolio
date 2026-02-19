@@ -1,172 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juan Jose Pereyra</title>
+    <!-- Título actualizado -->
+    <title>Juan José Pereyra | Desarrollador Web Freelance</title>
     <link rel="icon" type="image/png" href="./styles/img/ChatGPT Image 17 nov 2025, 05_32_05 p.m..png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <header>
             <div class="container-header-text">
-                <h1>Juan Jose Pereyra</h1>
-                <h2>Frontend Developer & IT Administrative Assistant</h2>
+                <h1>Juan José Pereyra</h1>
+                <h2>Desarrollador Web Freelance · Creo experiencias digitales para potenciar tu negocio o evento especial</h2>
             </div>
             <div class="container-header-btn">
-                <button onclick="document.getElementById('proyectos').scrollIntoView({ behavior: 'smooth' })">Mis proyectos</button>
-
+                <button onclick="document.getElementById('servicios').scrollIntoView({ behavior: 'smooth' })">Mis Servicios</button>
                 <button onclick="document.getElementById('contacto').scrollIntoView({ behavior: 'smooth' })">Contacto</button>
+                <button onclick="window.location.href='invitaciones.html'">Invitaciones Virtuales</button>
             </div>
     </header>
 
     <section id="sobre-mi" class="sobre-mi">
-    <div class="sobre-mi-container">
-        
-        <h2 class="sobre-mi-titulo">Sobre mí</h2>
+        <div class="sobre-mi-container">
+            <h2 class="sobre-mi-titulo">Sobre mí</h2>
+            <div class="sobre-mi-content">
+                <p class="sobre-mi-texto">
+                    Hola, soy Juan José. Ayudo a pequeños negocios, emprendedores y particulares a tener una presencia digital profesional. Ya sea una página web para tu marca o invitaciones virtuales únicas para tu evento, me encargo de todo el proceso para que tú solo te preocupes por lo que importa.
+                    <br><br>
+                    Además de mi pasión por la tecnología, actualmente me estoy formando como electricista, un rubro que me apasiona y al que también me dedicaré profesionalmente. Por eso, entiendo la importancia de la confianza y el trabajo bien hecho, tanto en el mundo digital como en el físico.
+                </p>
+                <div class="sobre-mi-habilidades">
+                    <h3>Habilidades y Herramientas</h3>
+                    <div class="habilidades-grid">
+                        <div class="habilidad-item">JavaScript</div>
+                        <div class="habilidad-item">React</div>
+                        <div class="habilidad-item">HTML / CSS</div>
+                        <div class="habilidad-item">Responsive Design</div>
+                        <div class="habilidad-item">APIs REST</div>
+                        <div class="habilidad-item">Git & GitHub</div>
+                        <div class="habilidad-item">Google Workspace</div>
+                        <div class="habilidad-item">Soporte Técnico</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <div class="sobre-mi-content">
-            <p class="sobre-mi-texto">
-                Soy desarrollador frontend con enfoque en crear interfaces modernas, rápidas y accesibles.
-                También cuento con formación y experiencia en tareas administrativas IT, gestión documental y soporte técnico básico.
-                Me caracterizo por trabajar de manera prolija, organizada y orientada a resultados.
+    <!-- SERVICIOS ===== -->
+    <section id="servicios" class="proyectos"> 
+        <h2 class="proyectos-titulo">Mis Servicios</h2>
+
+        <div class="proyectos-grid">
+
+            <!-- Tarjeta 1: Landing Pages -->
+            <div class="proyecto-card">
+                <!-- Usaremos la imagen de Jacarandá, pero asegúrate de que la ruta sea correcta -->
+                <img src="./styles/img/LandingPgeJacaranda.PNG" alt="Ejemplo de landing page para negocio" onerror="this.src='./styles/img/placeholder.jpg'">
+                <div class="proyecto-info">
+                    <h3>Landing Pages y Sitios Corporativos</h3>
+                    <p>Diseño y desarrollo de sitios web atractivos, rápidos y adaptados a móviles para que tu negocio tenga una presencia profesional en internet. Enfocados en convertir visitantes en clientes.</p>
+                    <div class="proyecto-links">
+                        <span class="btn-proyecto disabled-link">HTML / CSS / JS / React</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proyecto-card">
+                <img src="./styles/img/Domain.PNG" alt="Ejemplo de tienda online" onerror="this.src='./styles/img/placeholder.jpg'">
+                <div class="proyecto-info">
+                    <h3>Tiendas Virtuales (E-commerce)</h3>
+                    <p>¿Quieres vender por internet? Desarrollo tu e-commerce con carrito de compras, catálogo de productos y enlace directo a WhatsApp para una gestión de pedidos sencilla y efectiva.</p>
+                    <div class="proyecto-links">
+                        <span class="btn-proyecto disabled-link">HTML / CSS / JS / JSON</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3: Invitaciones Virtuales -->
+            <div class="proyecto-card">
+                <img src="./styles/img/InvitacionCumpleaños.PNG" alt="Ejemplo de invitación virtual" onerror="this.src='./styles/img/placeholder.jpg'">
+                <div class="proyecto-info">
+                    <h3>Invitaciones Digitales Personalizadas</h3>
+                    <p>Celebra a lo grande con invitaciones interactivas y llenas de estilo. Perfectas para cumpleaños, bodas, bautismos o eventos empresariales. Incluyen música, cuenta regresiva y confirmación de asistencia.</p>
+                    <div class="proyecto-links">
+                        <!-- Este botón lleva a la nueva página -->
+                        <a href="invitaciones.html" class="btn-proyecto">Ver más detalles</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2 class="contacto-titulo">¿Tienes un proyecto en mente?</h2>
+
+        <div class="contacto-container">
+
+            <p class="contacto-texto">
+                Cuéntame tu idea y te haré un presupuesto sin compromiso.
             </p>
 
-            <div class="sobre-mi-habilidades">
-                <h3>Habilidades</h3>
+            <form class="contacto-form" action="https://formspree.io/f/xblpvaly" method="POST">
+                <input type="text" name="nombre" placeholder="Tu nombre/empresa" required>
+                <input type="email" name="email" placeholder="Tu correo" required>
+                <textarea name="mensaje" placeholder="Cuéntame tu idea..." required></textarea>
 
-                <div class="habilidades-grid">
-                    <div class="habilidad-item">JavaScript</div>
-                    <div class="habilidad-item">React</div>
-                    <div class="habilidad-item">HTML / CSS</div>
-                    <div class="habilidad-item">Responsive Design</div>
-                    <div class="habilidad-item">APIs REST</div>
-                    <div class="habilidad-item">Git & GitHub</div>
+                <button class="btn-contacto-form" type="submit">Solicitar presupuesto</button>
+            </form>
 
-                    <div class="habilidad-item">Administración IT</div>
-                    <div class="habilidad-item">Google Workspace</div>
-                    <div class="habilidad-item">Soporte Técnico</div>
-                    <div class="habilidad-item">Gestión de datos</div>
-                </div>
+            <div class="contacto-redes">
+                <a href="https://github.com/Juan-Jose-cmd" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/juan-jos%C3%A9-pereyra-44aabb300/" target="_blank">LinkedIn</a>
+                <a href="mailto:juanjopereyra0@gmail.com">Email</a>
+                <a href="https://wa.me/5493413112245?text=Hola%20Juan%20José,%20vi%20tu%20portafolio%20y%20me%20gustaría%20consultarte%20sobre..." target="_blank">WhatsApp</a>
             </div>
-
+            <p id="mensaje-enviado" style="display:none; text-align:center; margin-top:1rem; opacity:0.85;">¡Gracias! Te contactaré a la brevedad.</p>
         </div>
+    </section>
 
-    </div>
-</section>
+    <footer class="footer">
+        <p>© 2025 Juan José Pereyra — Desarrollador Web Freelance.</p>
+    </footer>
 
-<section id="proyectos" class="proyectos">
-    <h2 class="proyectos-titulo">Proyectos</h2>
-
-    <div class="proyectos-grid">
-
-        <!-- Proyecto 1 -->
-        <div class="proyecto-card">
-            <img src="./styles/img/Captura.PNG" alt="Netflix Clone">
-            <div class="proyecto-info">
-                <h3>Netflix Clone</h3>
-                <p>Interfaz moderna basada en Netflix, con consumo de API y diseño responsive.</p>
-                <div class="proyecto-links">
-                    <a href="https://clon-netflix-alpha.vercel.app/" target="_blank" class="btn-proyecto">Demo</a>
-                    <a href="https://github.com/Juan-Jose-cmd/netflix-medieval" target="_blank" class="btn-proyecto">Código</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Proyecto 3 -->
-        <div class="proyecto-card">
-            <img src="./styles/img/Domain.PNG" alt="Pag de ventas">
-            <div class="proyecto-info">
-                <h3>Landing + Carrito de Compras</h3>
-                <p>Landing comercial con carrito de compras básico y envío de pedidos vía WhatsApp.</p>
-                <div class="proyecto-links">
-                    <a href="https://pagina-de-ventas-plum.vercel.app/" target="_blank" class="btn-proyecto">Demo</a>
-                    <a href="https://github.com/Juan-Jose-cmd/PaginaDeVentas" target="_blank" class="btn-proyecto">Código</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Proyecto 5 -->
-        <div class="proyecto-card">
-            <img src="./styles/img/Gestordetareas.PNG" alt="Task Manager">
-            <div class="proyecto-info">
-                <h3>Task Manager</h3>
-                <p>Gestor de tareas simple y funcional con localStorage.</p>
-                <div class="proyecto-links">
-                    <a href="https://gestor-de-tareas-lake.vercel.app/" target="_blank" class="btn-proyecto">Demo</a>
-                    <a href="https://github.com/Juan-Jose-cmd/GestorDeTareas" target="_blank" class="btn-proyecto">Código</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Proyecto 6 -->
-        <div class="proyecto-card">
-            <img src="./styles/img/PortafolioCreativo.PNG" alt="Task Manager">
-            <div class="proyecto-info">
-                <h3>Portfolio Creativo Interactivo</h3>
-                <p>Portfolio temático anterior, con animaciones, estilo personalizado y diseño artístico. Ejemplo de UI creativa.</p>
-                <div class="proyecto-links">
-                    <a href="https://portafolio-creativo.vercel.app/" target="_blank" class="btn-proyecto">Demo</a>
-                    <a href="https://github.com/Juan-Jose-cmd/PortafolioCreativo" target="_blank" class="btn-proyecto">Código</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="contacto" class="contacto">
-    <h2 class="contacto-titulo">Contacto</h2>
-
-    <div class="contacto-container">
-
-        <p class="contacto-texto">
-            Si deseas ponerte en contacto conmigo para oportunidades laborales,
-            proyectos o consultas, puedes enviarme un mensaje aquí:
-        </p>
-
-        <form class="contacto-form" action="https://formspree.io/f/xblpvaly" method="POST">
-            <input type="text" name="nombre" placeholder="Tu nombre/empresa" required>
-            <input type="email" name="email" placeholder="Tu correo" required>
-            <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
-
-            <button class="btn-contacto-form" type="submit">Enviar</button>
-        </form>
-
-        <div class="contacto-redes">
-            <a href="https://github.com/Juan-Jose-cmd" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/juan-jos%C3%A9-pereyra-44aabb300/" target="_blank">LinkedIn</a>
-            <a href="mailto:juanjopereyra0@gmail.com">Email</a>
-        </div>
-        <p id="mensaje-enviado" style="display:none; text-align:center; margin-top:1rem; opacity:0.85;">¡Tu mensaje ha sido enviado con éxito!</p>
-    </div>
-</section>
-
-<footer class="footer">
-    <p>© 2025 Juan José Pereyra — Todos los derechos reservados.</p>
-</footer>
-
-<script>
-
-document.querySelector(".contacto-form").addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const form = e.target;
-
-    const response = await fetch(form.action, {
-        method: "POST",
-        body: new FormData(form),
-        headers: { "Accept": "application/json" }
-    });
-
-    if (response.ok) {
-        document.getElementById("mensaje-enviado").style.display = "block";
-        form.reset();
-    }
-    });
-
-</script>
+    <script>
+        // Script del formulario 
+        document.querySelector(".contacto-form").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const form = e.target;
+            const response = await fetch(form.action, {
+                method: "POST",
+                body: new FormData(form),
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok) {
+                document.getElementById("mensaje-enviado").style.display = "block";
+                form.reset();
+            }
+        });
+    </script>
 </body>
 </html>
